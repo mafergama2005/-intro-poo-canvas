@@ -1,69 +1,48 @@
-# 🎨 Canvas 2D con Programación Orientada a Objetos
+# 🎨 Canvas 2D con JavaScript
 
-Aplicación web desarrollada con **HTML, CSS, JavaScript y Bootstrap** que demuestra el uso de la **API Canvas 2D** utilizando **Programación Orientada a Objetos (OOP)** para crear y renderizar círculos dentro de distintos canvas.
-
----
+Aplicación web que utiliza **HTML, CSS, JavaScript y Bootstrap** para dibujar objetos en **Canvas 2D** usando **Programación Orientada a Objetos (OOP)**.
 
 ## 📌 Descripción
 
-Este proyecto muestra cómo utilizar **Canvas 2D en JavaScript** para dibujar figuras geométricas mediante una **clase llamada `Circle`**.
+El proyecto muestra tres ejemplos de uso del canvas:
 
-La aplicación contiene tres ejemplos principales:
+- **Objeto 2D:** círculo con valores fijos.
+- **Objeto Random:** círculo con posición y tamaño aleatorio.
+- **Múltiples Objetos:** generación de varios círculos usando un ciclo `for`.
 
-1. **Objeto 2D**  
-   Un círculo generado con valores fijos en el centro del canvas.
+Los círculos tienen:
 
-2. **Objeto con Random**  
-   Un círculo generado con **posición y tamaño aleatorios**.
+- color de contorno
+- color de relleno
+- texto centrado
+- posición aleatoria dentro del canvas
 
-3. **Múltiples Objetos**  
-   Se generan varios círculos dentro del canvas utilizando un **ciclo `for`**.
+## 🛠 Tecnologías
 
-Cada círculo tiene:
-
-- Color de contorno  
-- Color de relleno  
-- Texto centrado  
-- Posición dentro del canvas  
-
-Además, el sistema evita que los círculos **se salgan del área del canvas**.
-
----
-
-## 🛠️ Tecnologías utilizadas
-
-- HTML5
-- CSS3
-- JavaScript
-- Bootstrap 5
-- Canvas API
-
----
+- HTML5  
+- CSS3  
+- JavaScript  
+- Bootstrap 5  
+- Canvas API  
 
 ## 📂 Estructura del proyecto
-proyecto-canvas2D
+
+```
+proyecto
 │
 ├── index.html
+├── README.md
 │
-├── assets
-│ │
-│ ├── css
-│ │ └── style.css
-│ │
-│ ├── js
-│ │ └── main.js
-│ │
-│ └── Img
-│ └── conejo.png
-│
-└── README.md
+└── assets
+    ├── css
+    │   └── style.css
+    ├── js
+    │   └── main.js
+    └── Img
+        └── conejo.png
+```
 
+## 👩‍💻 Autor
 
-## ⚙️ Funcionamiento
-
-El proyecto utiliza una **clase `Circle`** para crear objetos gráficos.
-
-### Constructor
-
-```javascript
-constructor(x, y, radius, color, text, backcolor, textcolor)
+Proyecto desarrollado para la materia **Graficación por Computadora**  
+Ingeniería en Sistemas Computacionales.
